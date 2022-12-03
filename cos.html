@@ -1,0 +1,76 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='cos.css' rel='stylesheet' type='text/css'>
+
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Chrome Add-On</title>
+	<script src="cos.js"></script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<base target="_blank">
+
+	<!--BOOTSTRAP-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+
+	<!-- ICONS -->
+	<script src="https://kit.fontawesome.com/1f6736652c.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+
+<body>
+	<select name="Aktywność" id="akt" class="form-select form-select-sm">
+		<option value=1>Praca</option>
+		<option value=2>Nauka</option>
+		<option value=3>Książka</option>
+	</select>
+
+	<div class="container">
+		<h1>Stop Watch</h1>
+		<div id="time">
+			<span class="digit" id="hr">
+				00</span>
+			<span class="txt">Hr</span>
+			<span class="digit" id="min">
+				00</span>
+			<span class="txt">Min</span>
+			<span class="digit" id="sec">
+				00</span>
+			<span class="txt">Sec</span>
+			<span class="digit" id="count">
+				00</span>
+		</div>
+
+		<div id="buttons" class="button-col col-lg-4 col-md-12 col-sm-12">
+			<button class="btn btn-outline-success btn-lg" id="start">
+				Start</button>
+		</div>
+		<div id="buttons" class="button-col col-lg-4 col-md-12 col-sm-12">
+			<button class="btn btn-outline-success btn-lg" id="stop">
+				Stop</button>
+		</div>
+		<div id="buttons" class="button-col col-lg-4 col-md-12 col-sm-12">
+			<button class="btn btn-outline-success btn-lg" id="reset">
+				Reset</button>
+		</div>
+	</div>
+	<div>
+		<h2 id="descriptionWork"></h2>
+		<h2 id="descriptionLesson"></h2>
+		<h2 id="descriptionBook"></h2>
+	</div>
+	
+</body>
+
+</html>

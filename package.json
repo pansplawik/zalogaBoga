@@ -1,0 +1,28 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "module": "commonjs",
+  "description": "projekt konkursowy na bit festiwal",
+  "main": "cos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pansplawik/zalogaBoga.git"
+  },
+  "keywords": [
+    "extensions"
+  ],
+  "author": "zaloga boga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pansplawik/zalogaBoga/issues"
+  },
+  "homepage": "https://github.com/pansplawik/zalogaBoga#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "fs": "^0.0.1-security",
+    "sqlite3": "^5.1.2"
+  }
+}

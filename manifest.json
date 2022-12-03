@@ -1,0 +1,17 @@
+{
+    "name": "Whatch your time",
+    "description": "Śledź ile czasu spedzasz na wykonaniu pewnych aktywności, praca, nauka książki", 
+    "browser_action": {
+        "default_icon": {
+            "38": "chronometer.png"
+            }, 
+        "default_title": "Whatch your time", 
+        "default_popup": "cos.html"
+    }, 
+    "manifest_version": 3,
+    "update_url": "http://clients2.google.com/service/update2/crx",
+    "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'",
+    "version": "1.0"
+}
+
+
